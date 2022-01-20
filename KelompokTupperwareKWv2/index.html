@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container-nav">
+            <h1>TupperwareKW</h1>
+            <button id="btn-reset">Refresh All</button>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <div class="container-1" >
+                <h2>Keranjang</h2>
+                <input type="checkbox" class="fullCheck" id="fullCheck" >
+                <label for="fullCheck">Pilih Semua</label>
+                <p class="hapus-semua"><a href="#" >Hapus Semua</a></p>
+                
+                <div class="list-toko"></div>
+
+            </div>
+        </section>
+
+        <aside>
+            <div class="container-aside">
+                <div class="top">
+                    <h3>Ringkasan Belanja</h3>
+                    <p>Total Harga <span class="total-barang">0</span> Barang</p>
+                    <p class="right">Rp<span class="total-harga">0</span></p>
+                </div>
+                <div class="bottom">
+                    <h3>Total Harga</h3>
+                    <p class="right">Rp<span class="total-harga">0</span></p>
+                </div>
+                <button class="buttonBeli" id="buttonBeli">Beli (<span class="total-barang" >0</span>)</button>
+            </div>
+        </aside>
+    </main>
+    
+    <!-- <script src="script.js"></script> -->
+    <script src="index.js"></script>
+</body>
+</html>

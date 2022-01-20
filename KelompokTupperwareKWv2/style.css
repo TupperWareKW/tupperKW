@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+input {
+    cursor:pointer;
+}
+
+header {
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 4px 6px -1px;
+    color: green;
+}
+
+header h1, h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.container-nav {
+    position: relative;
+}
+
+#btn-reset {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.fullCheck {
+    margin-top: 20px;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section {
+    /* flex-grow: 1; */
+    width: 65%;
+}
+
+.container-1 {
+    position: relative;
+}
+
+p.hapus-semua {    
+    position: absolute;      
+    top: 48px;
+    right: 5px;
+}
+
+.toko {
+    margin-top: 10px;
+    background-color: #69b190;
+    position: relative;
+    box-shadow: 2px 2px 10px rgb(187, 182, 182);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.kotaToko {    
+    margin-left: 20px;
+}
+
+img.hapus-toko {
+    width: 22px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.barang {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    margin-top: 8px;
+}
+
+input.cekboxbarang {
+    align-self: center;
+}
+
+.gambar-barang {
+    width: 140px;
+}
+
+.container-gambar-barang, .nama-harga-barang {
+    margin-left: 15px;
+}
+
+.nama-harga-barang {
+    position: relative;    
+}
+
+.diskon {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+p.pSisaStok {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.addMinus {
+    position: absolute;
+    display: flex;
+    bottom: 0;    
+    width: 100%;
+}
+
+span.totalBarang {
+    display: inline-block;
+    width: 50px;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-align: center;
+    border: 2px solid rgb(160, 160, 160);    
+}
+
+img.hapus-barang {
+    width: 20px;
+    position: relative;
+    right: -430px;
+    cursor: pointer;
+}
+
+aside {
+    /* flex-grow:2; */
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 78px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 10px rgb(214, 204, 204);
+}
+
+aside .top h3 {
+    text-align: center;
+}
+
+aside .right {
+    text-align: right;
+}
+
+.buttonBeli {
+    margin: 15px auto 0;
+    display: block;
+    width: 60%;
+    height: 35px;
+
+}
+
+
